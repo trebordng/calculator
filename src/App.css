@@ -1,0 +1,89 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #1c4588 !important;
+  height: 10vh;
+}
+
+.content {
+  background-color: #f2d55f;
+  min-height: 84vh;
+  padding: 3vh 3vw;
+}
+
+.input-name {
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #1c4588;
+  color: #f2d55f;
+}
+
+.input-field {
+  width: 100%;
+  background-color: white;
+}
+
+button {
+  font-weight: bolder !important;
+  color: #f2d55f !important;
+  background-color: #1c4588 !important;
+}
+
+.title-wrapper {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding-top: 6vh;
+  text-align: center;
+}
+
+.box-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 2vw;
+  height: 60px;
+}
+
+.box-name {
+  font-size: 1.2rem;
+}
+
+.box-wrapper {
+  padding-top: 3vh
+}
+
+.red {
+  background-color: #FF8A8A;
+  color: #D10000;
+  font-weight: bold;
+}
+
+.green {
+  background-color: #8AFF8A;
+  color: #00D100;
+  font-weight: bold;
+}
+
+.white {
+  background-color: white;
+}
+
+.title-phone {
+  padding: 2vh 0;
+  text-align: center;
+  font-weight: regular;
+}
+@media screen and (max-width:899px) {
+  .box-name{
+    text-align: center;
+    font-size:1.5rem;
+  }
+  .box-field{
+    margin: 0;
+  }
+}
